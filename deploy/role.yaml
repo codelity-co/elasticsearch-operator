@@ -50,5 +50,5 @@ rules:
     resources: ["deployments/finalizers"]
     verbs: ["update"]
   - apiGroups: ["helm.operator-sdk"]
-    resources: ["elasticsearch", "elasticsearch/status"]
+    resources: ["elasticsearches", "elasticsearches/status"]
     verbs: ["get", "list", "watch", "create", "update", "delete", "patch"]
