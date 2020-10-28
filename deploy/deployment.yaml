@@ -16,7 +16,7 @@ spec:
       containers:
         - name: elasticsearch-operator
           # Replace this with the built image name
-          image: gcr.io/codelity-co/elasticsearch-operator:v0.2.1
+          image: gcr.io/codelity-co/elasticsearch-operator:v0.2.2
           imagePullPolicy: Always
           env:
             - name: WATCH_NAMESPACE
